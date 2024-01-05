@@ -1,0 +1,44 @@
+#left-sidebar{
+    background-color: #3a4851;
+    color: #f3f3f4;
+}
+
+#left-sidebar-nav{
+    background-color: #327097;
+    margin-left: -75px;
+}
+
+#left-sidebar-nav a{
+    padding: 10px;
+}
+#left-sidebar-nav li.g_heading{
+    padding: 10px;
+    text-decoration: none; /* Remove underlines */
+}
+
+nav ul li a span{
+	color:#f3f3f4;
+}
+nav ul li :hover{
+    background-color: #85ce36;
+    margin: 0;
+}
+
+.auth{
+	background-color: red;
+	position: absolute;
+	width: 100px;
+	
+}
+.content_td p {
+    max-width: 100%;
+    max-height: 100px;
+    overflow-y: scroll;
+    text-overflow: ellipsis;
+}
+.metismenu a {
+    text-decoration: none; /* Remove underlines */
+    padding: 10px;
+}
+
+

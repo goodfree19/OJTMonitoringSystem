@@ -22,7 +22,7 @@ if(isset($_POST['btn_login']))
         if($role_as==2){
 
             $_SESSION['status'] = "We regret to inform you that your registration process was unsuccessful. Please carefully check your credentials and try again.";
-            header("Location: login_student.php");
+            header("Location: index.php");
            exit(0); 
         }else{
         if($role_as==1){
@@ -37,14 +37,14 @@ if(isset($_POST['btn_login']))
             exit(0); 
         }else{
             $_SESSION['status'] = "You are not verified yet!  ";
-            header("Location: login_student.php");
+            header("Location: index.php");
            exit(0); 
         }}
   }
    else
   {
     $_SESSION['status'] = "Invalid ID or Password! ";
-    header("Location: login_student.php");
+    header("Location: index.php");
     exit(0);
 }
 }  
@@ -71,7 +71,7 @@ if(isset($_POST['btn_login_supervisor']))
         if($role_as==2){
 
             $_SESSION['status'] = "We regret to inform you that your verification process was unsuccessful. Please review your submitted credentials and try again. If you continue to experience issues, contact our support team for further assistance. Thank you for your understanding.";
-            header("Location: login_student.php");
+            header("Location: index.php");
            exit(0); 
         }else{
         if($role_as==1){
